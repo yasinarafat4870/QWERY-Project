@@ -1,0 +1,413 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+ul,
+ol,
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+img {
+  vertical-align: middle;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+li {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 1320px;
+  margin: 0 auto;
+}
+:root {
+  --Font_style: "Open Sans", sans-serif;
+  --bgcolor: #000000;
+  --color: #fbd784;
+}
+
+/* ======================================================
+            Banner Part Start
+=========================================================*/
+#banner_part {
+  padding: 28px 0;
+  height: 796px;
+  background: url(../images/Banner.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#banner_part .menu_bar {
+  display: flex;
+  justify-content: space-between;
+}
+#banner_part .menu_bar .menu_item ul {
+  display: flex;
+  column-gap: 60px;
+}
+#banner_part .menu_bar .menu_item ul li a {
+  color: #ffffff;
+  transition: all linear 0.2s;
+  -webkit-transition: all linear 0.2s;
+  -moz-transition: all linear 0.2s;
+  -ms-transition: all linear 0.2s;
+  -o-transition: all linear 0.2s;
+  font-family: var(--Font_style);
+  font-weight: 600;
+  text-transform: capitalize;
+}
+#banner_part .menu_bar .menu_item ul li a:hover {
+  color: #000000;
+}
+
+#banner_part .banner_text {
+  margin-top: 210px;
+}
+#banner_part .banner_text p {
+  color: #ffc178;
+  font-family: var(--Font_style);
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 7px;
+  text-transform: uppercase;
+  margin-bottom: 18px;
+}
+
+#banner_part .banner_text h1 {
+  color: #fff;
+  font-family: var(--Font_style);
+  font-size: 96px;
+  font-weight: 700;
+  line-height: 100px;
+  text-transform: capitalize;
+}
+#banner_part .banner_text h1 span {
+  display: block;
+  color: #fff;
+  font-family: var(--Font_style);
+  font-size: 88px;
+  font-weight: 400;
+  line-height: 100px;
+  text-transform: capitalize;
+}
+
+/* ======================================================
+                 Banner Part End
+=========================================================*/
+
+/* ================================================
+                    Holiday Part Start
+===================================================== */
+
+#holiday_part {
+  padding: 100px 0;
+  background: var(--bgcolor);
+}
+
+#holiday_part .holiday_parent {
+  display: flex;
+  column-gap: 23px;
+}
+
+.holiday_img {
+  width: 649px;
+  height: 713px;
+}
+
+#holiday_part .holidaytext .holiday_p1 {
+  color: #fbd784;
+  font-family: var(--Font_style);
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 6px;
+  text-transform: uppercase;
+  margin-top: 45px;
+}
+
+#holiday_part .holidaytext .holiday_h1 {
+  color: #fff;
+  font-family: var(--Font_style);
+  font-size: 64px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-top: 13px;
+}
+
+#holiday_part .holidaytext .holiday_p2 {
+  color: #fff;
+  font-family: var(--Font_style);
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 32px;
+  text-transform: uppercase;
+  margin-top: 13px;
+}
+
+#holiday_part .holidaytext .holiday_a {
+  color: #fbd784;
+  font-family: var(--Font_style);
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  display: inline-block;
+  margin-top: 66px;
+}
+
+/* ================================================
+                    Holiday Part End
+===================================================== */
+
+/* ================================================
+                    Bromo Part Start
+===================================================== */
+
+#bromo_part {
+  padding: 100px 0;
+  background: var(--bgcolor);
+}
+
+#bromo_part .bromo_body {
+  height: 900px;
+  background: url(../images/Bromo.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+#bromo_part .bromo_body .bromo_text {
+  position: absolute;
+  bottom: 4%;
+  left: 17%;
+  text-align: center;
+}
+#bromo_part .bromo_body .bromo_text .bromo_text_one {
+  color: #fbd784;
+  font-family: var(--Font_style);
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 6px;
+  text-transform: uppercase;
+  margin-bottom: 13px;
+}
+#bromo_part .bromo_body .bromo_text .bromo_text_two {
+  color: #fff;
+  font-family: var(--Font_style);
+  font-size: 64px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 14px;
+}
+
+#bromo_part .bromo_body .bromo_text .bromo_text_three {
+  color: #fff;
+  font-family: var(--Font_style);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 33px;
+  text-transform: uppercase;
+  margin-bottom: 26px;
+  text-align: center;
+  width: 893px;
+}
+
+#bromo_part .bromo_body .bromo_text .bromo_text_four {
+  color: #fbd784;
+  font-family: var(--Font_style);
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 32px;
+}
+
+/* ================================================
+                    Bromo Part End
+===================================================== */
+
+/* ================================================
+                    Culture Part Start
+===================================================== */
+#culture_part {
+  padding: 100px 0;
+  background: var(--bgcolor);
+}
+#culture_part .culture_part_main {
+  display: flex;
+  column-gap: 37px;
+}
+
+#culture_part .culture_part_main .culture_part_img {
+  width: 624px;
+  height: 799px;
+}
+
+#culture_part .culture_part_main .Culture_part_text .culture_text_one {
+  color: #fbd784;
+  font-family: var(--Font_style);
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 6px;
+  text-transform: uppercase;
+  margin-top: 153px;
+}
+
+#culture_part .culture_part_main .Culture_part_text .culture_text_two {
+  color: #fff;
+  font-family: var(--Font_style);
+  font-size: 64px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-top: 19px;
+}
+
+#culture_part .culture_part_main .Culture_part_text .culture_text_three {
+  color: #fff;
+  font-family: var(--Font_style);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32px; /* 177.778% */
+  text-transform: uppercase;
+  margin-top: 19px;
+}
+
+#culture_part .culture_part_main .Culture_part_text .culture_text_four {
+  color: #fbd784;
+  font-style: var(--Font_style);
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  display: inline-block;
+  margin-top: 47px;
+}
+
+/* ================================================
+                    Culture Part End
+===================================================== */
+
+/* ================================================
+                    Footer Part Start
+===================================================== */
+#fotter_part {
+  padding: 100px 0;
+  background: var(--bgcolor);
+}
+#fotter_part .fotter_top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#fotter_part .fotter_mid {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#fotter_part .fotter_mid .fotter_list {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  column-gap: 150px;
+}
+
+#fotter_part .fotter_top .fotter_uttils {
+  display: flex;
+  column-gap: 18px;
+  align-items: center;
+}
+
+#fotter_part .fotter_top .fotter_uttils p {
+  color: #fff;
+  font-family: var(--Font_style);
+  font-size: 22px;
+  font-weight: 400;
+  line-height: -0.3px;
+  text-transform: capitalize;
+}
+
+#fotter_part .fotter_top .fotter_uttils a {
+  color: #000;
+  font-style: var(--Font_style);
+  font-size: 17px;
+  font-weight: 700;
+  text-transform: capitalize;
+  padding: 18px 67px;
+  display: inline-block;
+  background: #ffa343;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+#fotter_part .fotter_mid .fotter_vacation h1 {
+  color: #fff;
+  font-family: var(--Font_style);
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: -0.3px;
+  text-transform: capitalize;
+  margin-top: 82px;
+}
+
+#fotter_part .fotter_mid .fotter_vacation p {
+  color: #fff;
+  font-family: var(--Font_style);
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: -0.205px;
+  text-transform: capitalize;
+  margin-top: 49px;
+}
+
+#fotter_part .fotter_mid .fotter_vacation .social_icons a i {
+  color: #ffffff;
+  margin-top: 34px;
+  margin-right: 32px;
+}
+
+#fotter_part .fotter_mid .fotter_list .fotter_service h2 {
+  color: #ffd1a0;
+  font-family: var(--Font_style);
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: -0.232px;
+  text-transform: capitalize;
+  margin-bottom: 11px;
+}
+
+#fotter_part .fotter_mid .fotter_list .fotter_service ul li a {
+  color: #fff;
+  font-family: var(--Font_style);
+  font-size: 19px;
+  font-weight: 400;
+  letter-spacing: -0.205px;
+  text-transform: capitalize;
+  display: inline-block;
+  margin-bottom: 9px;
+}
+#fotter_part .fotter_bottom {
+  color: #fff;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32px;
+  margin-top: 170px;
+}
+
+/* ================================================
+                    Footer Part End
+===================================================== */
